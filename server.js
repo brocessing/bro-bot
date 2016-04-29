@@ -1,18 +1,16 @@
-// Require the Slack Client
-var Slack = require('@slack/client');
+/**
+ *
+ * Create the server and handle actions
+ */
 
-var RtmClient = Slack.RtmClient;
-var RTM_EVENTS = Slack.RTM_EVENTS;
+// Require modules
+var express = require('express');
+var bodyParser = require('body-parser');
 
-// Get the test token
-var token = process.env.SLACK_API_TOKEN || '';
+// Create server
+var app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
-// Create and start the RTM server
-var server = new RtmClient(token);
-server.start();
-
-// Wait for a message
-server.on(RTM_EVENTS.MESSAGE, function(message){
-  // Respond like a b0ss
-  server.sendMessage("Shut up, bro !", message.channel)
-});
+// Listen to requests
+var server = app.listen(8888);
