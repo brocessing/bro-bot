@@ -1,21 +1,20 @@
-# bro-bot
+<h1 align="center">Bro-bot</h1>
+<h3 align="center">:computer::speech_balloon: Muscle to your Slack :computer::speech_balloon:</h3>
 
-> :muscle: and :pill: for your slack
+<div align="center">
+  <!-- License -->
+  <a href="https://raw.githubusercontent.com/brocessins/bro-bot/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
+  </a>
+</div>
 
-## what is bro-bot ?
+## Disclaimer
 
-Bro-bot is a little slackbot with a few /commands utilities
+:warning: `bro-bot` is outdated.
 
-## features
+## Usage
 
-The few commands bro-bot reacts to :
+`/vote [something]`
 
-🙆 `/vote [something]`
-🙅 `/votekick @user`
-🙅 `/mute @user`
-
-You can request features by opening an issue on github.
-
-## licence
-
-`GNU GENERAL PUBLIC LICENSE Version 3, June 2007`
+## License
+MIT.
