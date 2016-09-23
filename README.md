@@ -3,7 +3,7 @@
 
 <div align="center">
   <!-- License -->
-  <a href="https://raw.githubusercontent.com/brocessins/bro-bot/master/LICENSE">
+  <a href="https://raw.githubusercontent.com/brocessins/bro-bot/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
   </a>
 </div>
